@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Snobella shoulder bags' page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/css/page2.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+
+    <div class="top-bar">
+        <div class="container top-flex">
+            <div class="top-left">
+                <span class="icon"><img src="assets/images/Vector.svg" alt=""></span>
+                <span>+748 383 23 14</span>
+            </div>
+            <div class="top-right">
+                <span>Terms of Use</span>
+                <span>|</span>
+                <span>FAQ</span>
+                <span>|</span>
+                <span>Customer service</span>
+            </div>
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="container header-flex">
+
+            <h1 class="logo" id="logoHome">Snobella</h1>
+
+            <div class="search-box">
+                <input type="text" placeholder="Search all product">
+                <span class="search-icon"><img src="assets/images/search 1.svg" alt=""></span>
+            </div>
+
+            <div class="header-right">
+
+                <div class="user-box">
+                    <span class="icon"><img src="assets/images/sign in.svg" alt=""></span>
+                    <span id="authText">Sign up</span>
+
+                    <div id="logoutBox" class="logout-dropdown">
+                        <p id="logoutBtn">Logout</p>
+                    </div>
+                </div>
+
+                <div class="icon-box">
+                    <span class="icon"><img src="assets/images/heart (2).svg" alt=""></span>
+                    <span>Wishlist</span>
+                </div>
+
+                <div class="icon-box">
+                    <span class="icon"><img src="assets/images/basket.svg" alt=""></span>
+                    <span>Basket</span>
+                </div>
+            </div>
+
+        </div>
+
+        <nav class="nav">
+            <div class="container nav-flex">
+                <a href="#">Evening bags</a>
+                <a href="#" class="active">Shoulder bag</a>
+                <a href="#">Backpack</a>
+                <a href="#">Handbag</a>
+                <a href="#">Postman bag</a>
+                <a href="#">Belt bags</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="page-title">
+        <div class="container">
+            <p class="breadcrumb">Home > Shoulder bags</p>
+            <h2>Shoulder bags</h2>
+        </div>
+    </section>
+
+    <div class="container page-flex">
+
+        <!--Left filter started-->
+        <aside class="sidebar">
+
+            <!-- Categories -->
+            <div class="filter-box collapsible active">
+                <div class="filter-header">
+                    <h3>Categories</h3>
+                    <span>^</span>
+                </div>
+                <ul class="filter-content">
+                    <li>Backpacks</li>
+                    <li>Belt Bags</li>
+                    <li>Handbags</li>
+                    <li class="active">Shoulder bags</li>
+                    <li>Evening bags</li>
+                    <li>Postman bag</li>
+                </ul>
+            </div>
+
+            <!-- Material -->
+            <div class="filter-box collapsible active">
+                <div class="filter-header">
+                    <h3>Material</h3>
+                    <span>^</span>
+                </div>
+
+                <div class="filter-content">
+                    <label><input type="checkbox"> Cloth</label>
+                    <label><input type="checkbox"> Cotton</label>
+                    <label><input type="checkbox"> Denim - Jeans</label>
+                    <label><input type="checkbox" checked> Exotic Leathers</label>
+                    <label><input type="checkbox"> Faux Fur</label>
+                    <label><input type="checkbox" checked> Glitter</label>
+                </div>
+            </div>
+
+            <!-- Price -->
+            <div class="filter-box collapsible active">
+                <div class="filter-header">
+                    <h3>Material</h3>
+                    <span>^</span>
+                </div>
+
+                <div class="filter-content">
+                    <div class="price-box">
+                        <input type="text" placeholder="$10">
+                        <span>-</span>
+                        <input type="text" placeholder="$50">
+                        <button class="search-btn"><img src="assets/images/white search.svg" alt=""></button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Size -->
+            <div class="filter-box collapsible active">
+                <div class="filter-header">
+                    <h3>Size</h3>
+                    <span>^</span>
+                </div>
+
+                <div class="filter-content">
+                    <div class="size-box">
+                        <button>XS</button>
+                        <button>S</button>
+                        <button>M</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Color -->
+            <div class="filter-box collapsible active">
+                <div class="filter-header">
+                    <h3>Color</h3>
+                    <span>^</span>
+                </div>
+
+                <div class="filter-content">
+                    <div class="colors">
+                        <span class="circle c1"></span>
+                        <span class="circle c2"></span>
+                        <span class="circle c3"></span>
+                        <span class="circle c4"></span>
+                        <span class="circle c5"></span>
+                        <span class="circle c6"></span>
+                        <span class="circle c7"></span>
+                    </div><br>
+                    <div class="colors">
+                        <span class="circle c8"></span>
+                        <span class="circle c9"></span>
+                        <span class="circle c10"></span>
+                        <span class="circle c11"></span>
+                        <span class="circle c12"></span>
+                        <span class="circle c13"></span>
+                    </div>
+                </div>
+            </div>
+
+        </aside>
+
+
+        <!--Right products started-->
+
+        <section class="products-right">
+
+            <div class="prod-top">
+                <span>32 results</span>
+                <select id="sortSelect">
+                    <option value="featured">Featured</option>
+                    <option value="popular">Popular</option>
+                    <option value="newest">Newest</option>
+                </select>
+            </div>
+
+            <div class="prod-grid">
+
+                <!--1-->
+                <div class="product-card">
+                    <span class="badge green">New</span>
+                    <button class="fav"><i class="fa-regular fa-heart" style="color: #ff0000;"></i></button>
+                    <img src="assets/images/green bag.png">
+                    <p class="stars">★★★★★</p>
+                    <p class="prod-title">Shoulder Bag Leather Bag Leather undertakes laborious physical</p>
+                    <div class="prices">
+                        <span class="price">$130.00</span>
+                        <span class="old-price">From $340.00</span>
+                    </div>
+                    <button class="add">Add to card</button>
+                </div>
+
+                <!--2-->
+                <div class="product-card">
+                    <span class="badge red">30%</span>
+                    <button class="fav"><i class="fa-solid fa-heart" style="color: #ff0000;"></i></button>
+                    <img src="assets/images/green bag.png">
+                    <p class="stars">★★★★★</p>
+                    <p class="prod-title">Shoulder Bag Leather Bag Leather undertakes laborious physical</p>
+                    <div class="prices">
+                        <span class="price">$130.00</span>
+                        <span class="old-price">From $340.00</span>
+                    </div>
+                    <button class="add">Add to card</button>
+                </div>
+
+                <!--3-->
+                <div class="product-card">
+                    <span class="badge red">30%</span>
+                    <button class="fav"><i class="fa-regular fa-heart" style="color: #ff0000;"></i></button>
+                    <img src="assets/images/green bag.png">
+                    <p class="stars">★★★★★</p>
+                    <p class="prod-title">Shoulder Bag Leather Bag Leather undertakes laborious physical</p>
+                    <div class="prices">
+                        <span class="price">$130.00</span>
+                        <span class="old-price">From $340.00</span>
+                    </div>
+                    <button class="add">Add to card</button>
+                </div>
+
+                <!--4-->
+                <div class="product-card">
+                    <span class="badge green">New</span>
+                    <button class="fav"><i class="fa-regular fa-heart" style="color: #ff0000;"></i></button>
+                    <img src="assets/images/green leather bag.svg">
+                    <p class="stars">★★★★★</p>
+                    <p class="prod-title">Shoulder Bag Leather Bag Leather undertakes laborious physical</p>
+                    <div class="prices">
+                        <span class="price">$130.00</span>
+                        <span class="old-price">From $340.00</span>
+                    </div>
+                    <button class="add">Add to card</button>
+                </div>
+
+                <!--5-->
+                <div class="product-card">
+                    <span class="badge red">30%</span>
+                    <button class="fav"><i class="fa-solid fa-heart" style="color: #ff0000;"></i></button>
+                    <img src="assets/images/green bag.png">
+                    <p class="stars">★★★★★</p>
+                    <p class="prod-title">Shoulder Bag Leather Bag Leather undertakes laborious physical</p>
+                    <div class="prices">
+                        <span class="price">$130.00</span>
+                        <span class="old-price">From $340.00</span>
+                    </div>
+                    <button class="add">Add to card</button>
+                </div>
+
+                <!--6-->
+                <div class="product-card">
+                    <span class="badge green">New</span>
+                    <button class="fav"><i class="fa-regular fa-heart" style="color: #ff0000;"></i></button>
+                    <img src="assets/images/green bag.png">
+                    <p class="stars">★★★★★</p>
+                    <p class="prod-title">Shoulder Bag Leather Bag Leather undertakes laborious physical</p>
+                    <div class="prices">
+                        <span class="price">$130.00</span>
+                        <span class="old-price">From $340.00</span>
+                    </div>
+                    <button class="add">Add to card</button>
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <!--Footer started-->
+    <footer class="footer">
+
+        <div class="container footer__top">
+
+            <div class="footer__left">
+                <h2>Snobella</h2><br>
+
+                <p class="footer__desc">
+                    The wise man therefore always holds selection<br>
+                    The wise man therefore always rejects pleasures to secure other greater
+                </p>
+
+                <div class="footer__info">
+                    <img src="assets/images/email (3) 1.svg" alt="">
+                    Snobella@gmail.com
+                </div>
+
+                <div class="footer__info">
+                    <img src="assets/images/phone-call (3) 1.svg" alt="">
+                    +748 383 23 14
+                </div>
+
+                <button class="footer__btn">
+                    <img src="assets/images/Group.svg" alt="">
+                    Send message
+                </button>
+            </div>
+
+            <div class="footer__right">
+
+                <div class="search-box">
+                    <input type="text" placeholder="Search all product">
+                    <span class="search-icon"><img src="assets/images/search 1.svg" alt=""></span>
+                </div><br>
+
+                <div class="footer__links">
+
+                    <div class="footer__column">
+                        <h3>Shop</h3>
+                        <a href="#">Shoulder Bag</a>
+                        <a href="#">Backpack</a>
+                        <a href="#">Tote Bag</a>
+                        <a href="#">Hand Bag</a>
+                        <a href="#">Evenings bags</a>
+                        <a href="#">Purse</a>
+                    </div>
+
+                    <div class="footer__column">
+                        <h3>Company</h3>
+                        <a href="#">About us</a>
+                        <a href="#">Contact</a>
+                        <a href="#">Terms of Use</a>
+                        <a href="#">Customer service</a>
+                    </div>
+
+                    <div class="footer__column">
+                        <h3>Help</h3>
+                        <a href="#">FAQ</a>
+                        <a href="#">Delivery</a>
+                        <a href="#">Cancellation of the order</a>
+                        <a href="#">Don't go back</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer__bottom">
+            <div class="container footer__bottom-inner">
+                <p>© 2020. All rights reserved.</p>
+
+                <div class="footer__socials">
+                    <img src="assets/images/instagram (1).svg" alt="">
+                    <img src="assets/images/facebook (6).svg" alt="">
+                    <img src="assets/images/whatsapp.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/page2.js"></script>
+
+</body>
+
+</html>
